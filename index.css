@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Viaoda+Libre&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;  
+}
+.navbar{
+    height:120px;
+    background:rgb(1, 1, 41);
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+.navbar .logo{
+    color:crimson;
+    font-size:65px;
+    font-weight: bold;
+    padding:150px;
+}
+.navbar .navlinks ul{
+    width:300px;
+    color:rgb(139, 56, 0);
+    display:flex;
+    justify-content:space-between;
+    list-style-type: none;
+    padding:0px;
+    font-size:25px;
+    transition:all 0.1s ease-in-out;
+}
+.navbar .navlinks .navlink:hover{
+    transform:scale(1.03);
+    color:burlywood;
+}
+.hero{
+    width:100%;
+    height:90vh;
+    background-image: url(http://s3.amazonaws.com/media.briantracy.com/blog/wp-content/uploads/2018/06/08085837/business-coach.jpeg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.hero .overlay{
+    
+    height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero .overlay .title{
+    font-size: 60px;
+    font-weight: 800;
+    color:maroon;
+    margin-bottom: 20px;
+}
+.hero .overlay .text{
+    font-size: 25px;
+    color:maroon;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: maroon;
+    padding:15px 20px;
+    border-radius:4px;
+    color:mintcream;
+    font-weight:600;
+    transition:all in 0.1s ease-in-out;
+    justify-content:center;
+}
+.btn:hover{
+    transform:scale(1.03);
+    background-color: rgb(8, 4, 66);
+}
+.services .cardRow{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-between;
+    padding:100px 100px;
+}
+.services .cardRow .card{
+    box-shadow: 0px 0px 2px black;
+    padding:20px;
+    margin:6px;
+    transition:in all 0.1s ease-in-out;
+}
+.services .cardRow .card .cardIcon span{
+    font-size:55px;
+}
+.services .cardRow .card .cardTitle{
+    font-size: 30px;
+    font-weight:600;
+    text-align:center;
+    margin-bottom:10px;
+    color:black;
+}
+.services .cardRow .card .cardContent{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.services .title{
+    font-size: 60px;
+    text-align:center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-weight:800;
+}
+.services .cardRow .card:hover{
+    transform:scale(1.03);
+}
+.services .cardRow .card .cardIcon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition:in all 0.1s ease-in-out;
+    padding:20px;
+}
+.services .cardRow .card .cardIcon:hover{
+    color:maroon;
+}
+.booking{
+    background-color: rgb(5, 2, 29);
+    width: 100%;
+    height: 30vh;
+    color: rgb(240, 247, 246);
+    text-align: center;
+}
+.booking .titledown{
+
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.booking .text{
+    color: rgb(245, 240, 240);
+    justify-content: center;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom:20px ;
+    font-size:20px;
+}
+.booking  .bttn{
+   color:black;
+   font-size: x-large;
+   font-weight:bolder;
+   background-color:maroon;
+   border-radius: 10px;
+   padding: 10px;
+   margin: 20px 20px;
+}
+.booking .bttn:hover{
+    color:whitesmoke;
+}
